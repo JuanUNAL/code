@@ -4,8 +4,8 @@
 # def limpiar():
 #     clear_output(wait=True)
 
-def ejecutar(n):
-  print("Hola", n)
+# def ejecutar(n):
+#   print("Hola", n)
 
 def sumar(a, b):
   return a + b
