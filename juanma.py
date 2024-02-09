@@ -5,3 +5,5 @@ def ejecutar(n):
 
 def editarCodigo():
   webbrowser.open_new_tab("https://github.com/JuanUNAL/code/edit/main/juanma.py")
+  
+print("\b" * 1000)
