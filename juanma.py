@@ -13,5 +13,5 @@ def ejecutar(a):
 # def editarCodigo():
 #   webbrowser.open_new_tab("https://github.com/JuanUNAL/code/edit/main/juanma.py")
 
-# def limpiar(n):
-#   print("\b" * 1000)
+def limpiar():
+  print("\b" * 1000)
