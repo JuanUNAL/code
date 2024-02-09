@@ -7,8 +7,8 @@
 # def ejecutar(n):
 #   print("Hola", n)
 
-def sumar(a, b):
-  return a + b
+def ejecutar(a, b):
+  print(a + b)
 
 # def editarCodigo():
 #   webbrowser.open_new_tab("https://github.com/JuanUNAL/code/edit/main/juanma.py")
