@@ -1,7 +1,5 @@
 import webbrowser
 
-
-
 def ejecutar(n):
   print("Hola ", n)
 
