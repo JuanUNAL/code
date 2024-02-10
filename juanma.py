@@ -4,7 +4,7 @@
 # juanma.info()
 
 def clean():
-  print("\b" * 1000, end=())
+  print("\b" * 1000, end=(""))
 
 def info():
   funcionesNombres = [
