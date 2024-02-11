@@ -28,7 +28,7 @@ def info():
   for i in funcionesNombres:
     print(i)
 
-def table(data, stiles):
+def table(data, stiles = "0"):
   print(f"\033[{stiles}m")
   columnas = 0
   for i in data:
