@@ -139,4 +139,3 @@ def triangleInfo():
   print(" info | triangle(t, c)           |")
   print(" info | t  = Tamaño              |")
   print(" info | c  = Caracter del borde  |")
-  print(" info | bg = Caracter de relleno |")
