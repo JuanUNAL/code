@@ -17,7 +17,9 @@ def info():
       " info | square(t, c, bg)                                                     |",
       " info | squareInfo()                                                         |",
       " info | triangle(t, c)                                                       |",
-      " info | triangleInfo()                                                       |"
+      " info | triangleInfo()                                                       |",
+      " info | printc(text, color, style)                                           |",
+      " info | printcInfo()                                                         |",
   ]
   print(" info | Para importar copia en tu codigo lo siguiente:                       |")
   print(" info | !wget https://raw.githubusercontent.com/JuanUNAL/code/main/juanma.py |")
@@ -139,3 +141,22 @@ def triangleInfo():
   print(" info | triangle(t, c)           |")
   print(" info | t  = Tamaño              |")
   print(" info | c  = Caracter del borde  |")
+
+def printc(text="", style="0", color="0", fondo="0"):  
+  if text != "":
+    print(f"\033[{fondo};{color};{style}m{text}\033[0m")
+  else:
+    print("https://python-para-impacientes.blogspot.com/2016/09/dar-color-las-salidas-en-la-consola.html")
+
+def printcInfo():
+  print(" info | printc(text, color, style)                                                                       |")
+  print(" info | text  = ′Cualquier string′                                                                       |")
+  print(" info | style = Estilos separados por ; (sin ; en el final) ejemplo: ′1;5′                               |")
+  print(" info | color = Color del texto ; (sin ; en el final) ejemplo: ′36′                                      |")
+  print(" info | fondo = Fondo separados por ; (sin ; en el final) ejemplo: ′36′                                  |")
+  print(" info |                                                                                                  |")
+  print(" info | Ejemplo:                                                                                         |")
+  print(' info | printc("Texto de prueba", "1", "31", "33")                                                       |')
+  print(" info |                                                                                                  |")
+  print(' info | Los codigos de estilo separados por ; por ejemplo "36;3" son codigos que puedes encontrar en     |')
+  print(" info | https://python-para-impacientes.blogspot.com/2016/09/dar-color-las-salidas-en-la-consola.html    |")
